@@ -49,6 +49,24 @@ body{
     padding: 40px 0px;
 }
 
+.menu{
+    display: block;
+    background: transparent;
+    width: auto;
+    position: unset;
+    padding: 0;
+}
+
+.hamburger-menu{
+    display: none;
+}
+.hamburger-menu a{
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
 .menu ul li{
     display: inline-block;
 }
@@ -57,6 +75,11 @@ body{
     padding: 10px 15px;
     font-size: 16px;
     color: var(--colorWhite);
+    transition: all .2s ease-in;
+}
+
+.menu ul li a:hover{
+    color: var(--colorDark);
 }
 
 .banner{

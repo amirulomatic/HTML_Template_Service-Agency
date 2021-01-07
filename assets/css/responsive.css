@@ -7,9 +7,33 @@
     .header{
         display: flex;
         justify-content: space-between;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         padding: 40px 0px;
+    }
+
+    .menu{
+        display: none;
+        background: #F95157;
+        width: 100%;
+        position: absolute;
+        padding: 15px 30px;
+        top: 100px;
+        left: 0;
+    }
+
+    .menu ul li{
+        display: block;
+    }
+    
+    .hamburger-menu{
+        display: block;
+    }
+    .hamburger-menu a{
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
     }
 
     .banner-search{
@@ -217,6 +241,28 @@
         padding: 40px 0px;
     }
 
+    .menu{
+        display: block;
+        background: transparent;
+        width: auto;
+        position: unset;
+        padding: 0;
+    }
+    
+    .hamburger-menu{
+        display: none;
+    }
+    .hamburger-menu a{
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu ul li{
+        display: inline-block;
+    }
+
     .banner-search{
         background-color: white;
         width: 70%;
@@ -421,6 +467,28 @@
         padding: 40px 0px;
     }
 
+    .menu{
+        display: block;
+        background: transparent;
+        width: auto;
+        position: unset;
+        padding: 0;
+    }
+    
+    .hamburger-menu{
+        display: none;
+    }
+    .hamburger-menu a{
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu ul li{
+        display: inline-block;
+    }
+
     .banner-search{
         background-color: white;
         width: 70%;
@@ -623,6 +691,28 @@
         flex-direction: row;
         align-items: center;
         padding: 40px 0px;
+    }
+
+    .menu{
+        display: block;
+        background: transparent;
+        width: auto;
+        position: unset;
+        padding: 0;
+    }
+    
+    .hamburger-menu{
+        display: none;
+    }
+    .hamburger-menu a{
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu ul li{
+        display: inline-block;
     }
 
     .banner-search{
@@ -846,6 +936,24 @@
     flex-direction: row;
     align-items: center;
     padding: 40px 0px;
+}
+
+.menu{
+    display: block;
+    background: transparent;
+    width: auto;
+    position: unset;
+    padding: 0;
+}
+
+.hamburger-menu{
+    display: none;
+}
+.hamburger-menu a{
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
 }
 
 .menu ul li{
